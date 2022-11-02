@@ -69,8 +69,14 @@ Note that you can set up performing the code cleanup in the [silent mode](https:
 ## See also
 
 [Configure inspection profiles](https://www.jetbrains.com/help/idea/customizing-profiles.html)
+
+
 [Run manual inspections](https://www.jetbrains.com/help/idea/running-inspections.html)
+
 [Create custom inspections](https://www.jetbrains.com/help/idea/creating-custom-inspections.html)
+
 [Change inspection severity](https://www.jetbrains.com/help/idea/configuring-inspection-severities.html)
+
 [Learn the Problems tool](https://www.jetbrains.com/help/idea/problems-tool-window.html)
+
 [Analyze duplicates](https://www.jetbrains.com/help/idea/analyzing-duplicates.html)
