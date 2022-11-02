@@ -8,13 +8,12 @@ Each detected issue gets a [severity level](https://www.jetbrains.com/help/idea/
 <ol>
 <li>Click <b>IntelliJ IDEA</b> in the upper left corner, then go to <b>Preferences</b> or use the <code>⌘,</code> shortcut.</li>
 <li>In the tree, find <b>Editor</b> and navigate to <b>Inspections</b>:
-
+<br><br>
 <img src="https://github.com/spnkrtv/JBTA/blob/main/1-preferences-1.png" width="500"></li>
-
+<br><br>
 <li>Pick a technology to configure inspections for and check the needed boxes:
-
+<br><br>
 <img src="https://github.com/spnkrtv/JBTA/blob/main/2-preferences-2.png" width="500"></li>
-
 </ol>
 
 ## Analyze a file
@@ -23,19 +22,16 @@ IntelliJ IDEA automatically analyzes your code in the editor and highlights dete
 
 <ol>
 <li>If you have a syntax error, you will see a warning icon on the issue line. In the top right corner, you will see the widget with the numbers of detected issues of each severity:
-
+<br><br>
 <img src="https://github.com/spnkrtv/JBTA/blob/main/3-severity.png" width="500"></li>
-
 <li>If you click on the widget, you can examine each issue in the <b>Problems tool</b>:
 <br><br>
 <img src="https://github.com/spnkrtv/JBTA/blob/main/4-problems.png" width="500">
-  
-If you double-click on the message, you will see the highlighted line with the issue. You can also right-click and select <b>Jump to source</b> in the menu or use the <code>⌘↓</code> shortcut.</li>
+<br>If you double-click on the message, you will see the highlighted line with the issue. You can also right-click and select <b>Jump to source</b> in the menu or use the <code>⌘↓</code> shortcut.</li>
 
 <li>Click on the message and click the 💡 icon on the left toolbar. You can also use the warning icon on the issue line in the editor:
-
+<br><br>
 <img src="https://github.com/spnkrtv/JBTA/blob/main/5-quickfix.png" width="400"></li>
-
 <li>Select one of the options on the menu and then resolve the error.</li>
 </ol>
 
@@ -44,5 +40,36 @@ If automated inspecting doesn’t suit you, you can set up an inspection [manual
 ## Analyze a project
 
 In IntelliJ IDEA, you can inspect your entire project for issues. Currently, it is possible only for Java projects. If you use some other languages along with Java, it might work incorrectly.
- 
-To turn on the project-wide analysis, open the **Problems** tool. To do that, click **View** in the upper left corner. Hover on **Tool Windows** and select **Problems**. You can also use the `⌘6` shortcut.
+<ol> 
+<li>To turn on the project-wide analysis, open the <b>Problems</b> tool. To do that, click <b>View</b> in the upper left corner. Hover on <b>Tool Windows</b> and select <b>Problems</b>. You can also use the <code>⌘6</code> shortcut.</li>
+<li>Select the Project Errors tab and click the <img src="https://github.com/spnkrtv/JBTA/blob/main/6-icon.png" width="20"> icon on the left toolbar.
+Running the analysis for the first time in the project takes longer than it will in the following inspections. Once the analysis is finished, you will see a list of all detected issues in the project:
+<br><br>
+<img src="https://github.com/spnkrtv/JBTA/blob/main/7-projerrors.png" width="400">
+<br>Find the issue line in the editor by double-clicking on the message or right-clicking and selecting <b>Jump to source</b> in the menu or using the <code>⌘ ↓</code> shortcut.  
+</li>
+<li>Click on the warning icon on the issue line, select one of the options on the menu and then resolve the error.</li>
+</ol>
+
+## Code cleanup
+
+If you don’t want to fix all detected issues one by one, you can run the Code Cleanup and apply quick fixes to a set of issues.
+<ol>
+<li>Click <b>Code</b> on the top menu and select <b>Code Cleanup<b>.</li>
+<li>In the Specify Code Cleanup Scope dialog, select a scope to apply:
+<br><br>
+<img src="https://github.com/spnkrtv/JBTA/blob/main/8-cleanup.png" width="400">
+<br>The cleanup runs using the default inspection profile. If you want to use a custom one, select it from the dropdown list or click Configure to create a new profile.</li>
+<li>Click Analyze to start the cleanup.</li>
+</ol>
+Code cleanup applies quick fixes to issues using the selected inspection profile. You can check the results on the **Problems tool** and export them to one of the available formats.
+Note that you can set up performing the code cleanup in the [silent mode](https://www.jetbrains.com/help/idea/resolving-problems.html#silent-cleanup), cleanup before [committing to Git](https://www.jetbrains.com/help/idea/resolving-problems.html#quick-fix-before-commit), and cleanup [on save](https://www.jetbrains.com/help/idea/resolving-problems.html#clean-up-on-save).
+
+## See also
+
+[Configure inspection profiles](https://www.jetbrains.com/help/idea/customizing-profiles.html)
+[Run manual inspections](https://www.jetbrains.com/help/idea/running-inspections.html)
+[Create custom inspections](https://www.jetbrains.com/help/idea/creating-custom-inspections.html)
+[Change inspection severity](https://www.jetbrains.com/help/idea/configuring-inspection-severities.html)
+[Learn the Problems tool](https://www.jetbrains.com/help/idea/problems-tool-window.html)
+[Analyze duplicates](https://www.jetbrains.com/help/idea/analyzing-duplicates.html)
