@@ -62,6 +62,7 @@ If you don’t want to fix all detected issues one by one, you can run the Code 
 <br>The cleanup runs using the default inspection profile. If you want to use a custom one, select it from the dropdown list or click Configure to create a new profile.</li>
 <li>Click Analyze to start the cleanup.</li>
 </ol>
+
 Code cleanup applies quick fixes to issues using the selected inspection profile. You can check the results on the **Problems tool** and export them to one of the available formats.
 Note that you can set up performing the code cleanup in the [silent mode](https://www.jetbrains.com/help/idea/resolving-problems.html#silent-cleanup), cleanup before [committing to Git](https://www.jetbrains.com/help/idea/resolving-problems.html#quick-fix-before-commit), and cleanup [on save](https://www.jetbrains.com/help/idea/resolving-problems.html#clean-up-on-save).
 
