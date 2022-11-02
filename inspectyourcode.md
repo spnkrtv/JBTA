@@ -21,8 +21,13 @@ Each detected issue gets a [severity level](https://www.jetbrains.com/help/idea/
 
 IntelliJ IDEA automatically analyzes your code in the editor and highlights detected issues while writing the code.
 
-
 <ol>
-If you have a syntax error, you will see a warning icon on the issue line. In the top right corner, you will see the widget with the numbers of detected issues of each severity:
+<li>If you have a syntax error, you will see a warning icon on the issue line. In the top right corner, you will see the widget with the numbers of detected issues of each severity:
 
 <img src="https://github.com/spnkrtv/JBTA/blob/main/3-severity.png" width="500"></li>
+
+<li>If you click on the widget, you can examine each issue in the **Problems tool**:
+
+<img src="https://github.com/spnkrtv/JBTA/blob/main/4-problems.png" width="500"></li>
+
+</ol>
