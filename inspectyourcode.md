@@ -63,7 +63,7 @@ Running the analysis for the first time in the project takes longer than it will
 If you don’t want to fix all detected issues one by one, you can run the Code Cleanup and apply quick fixes to to all issues at once.
 <ol>
 <li>Click <b>Code</b> on the top menu and select <b>Code Cleanup</b>.</li>
-<li>In the Specify Code Cleanup Scope dialog, select a scope to apply:
+<li>In the <b>Specify Code Cleanup Scope</b> dialog, select a scope to apply:
 <br><br>
 <img src="https://github.com/spnkrtv/JBTA/blob/main/8-cleanup.png" width="400">
 <br>The cleanup runs using the default inspection profile. If you want to use a custom one, select it from the dropdown list or click Configure to create a new profile.</li>
