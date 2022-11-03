@@ -1,6 +1,6 @@
 # Inspect your code
 
-IIntelliJ IDEA has a set of features for code inspections that helps you find and fix misspellings, potential bugs, and incorrect data input data. You can run inspections for all files in a project or define desirable [scopes](https://www.jetbrains.com/help/idea/configuring-scopes-and-file-colors.html).
+IIntelliJ IDEA has a set of features for code inspections that helps you find and fix misspellings, potential bugs, and incorrect data input. You can run inspections for all files in a project or define desirable [scopes](https://www.jetbrains.com/help/idea/configuring-scopes-and-file-colors.html).
 
 Each detected issue gets a [severity level](https://www.jetbrains.com/help/idea/configuring-inspection-severities.html) indicating its significance. IntelliJ IDEA has a set of predefined severity levels, but you can also configure your own by using [inspection profiles](https://www.jetbrains.com/help/idea/customizing-profiles.html).
 
