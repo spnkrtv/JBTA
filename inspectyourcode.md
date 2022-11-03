@@ -49,7 +49,7 @@ If automated inspecting doesn’t suit you, you can set up an inspection [manual
 In IntelliJ IDEA, you can inspect your entire project for issues. Currently, it is possible only for Java projects. If you use some other languages along with Java, it might work incorrectly.
 <ol> 
 <li>To turn on the project-wide analysis, open the <b>Problems</b> tool. To do that, click <b>View</b> in the upper left corner. Hover on <b>Tool Windows</b> and select <b>Problems</b>. You can also use the <code>⌘6</code> shortcut.</li>
-<li>Select the Project Errors tab and click the <img src="https://github.com/spnkrtv/JBTA/blob/main/6-icon.png" width="20"> icon on the left toolbar.
+<li>Select the <b>Project Errors</b> tab and click the <img src="https://github.com/spnkrtv/JBTA/blob/main/6-icon.png" width="20"> icon on the left toolbar.
 Running the analysis for the first time in the project takes longer than it will in the following inspections. Once the analysis is finished, you will see a list of all detected issues in the project:
 <br><br>
 <img src="https://github.com/spnkrtv/JBTA/blob/main/7-projerrors.png" width="400">
@@ -67,7 +67,7 @@ If you don’t want to fix all detected issues one by one, you can run the Code 
 <br><br>
 <img src="https://github.com/spnkrtv/JBTA/blob/main/8-cleanup.png" width="400">
 <br>The cleanup runs using the default inspection profile. If you want to use a custom one, select it from the dropdown list or click Configure to create a new profile.</li>
-<li>Click Analyze to start the cleanup.</li>
+<li>Click <b>Analyze</b> to start the cleanup.</li>
 </ol>
 
 Code cleanup applies quick fixes to issues using the selected inspection profile. You can check the results on the **Problems tool** and export them to one of the available formats.
