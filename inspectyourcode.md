@@ -66,7 +66,7 @@ If you don’t want to fix all detected issues one by one, you can run the Code 
 <li>In the <b>Specify Code Cleanup Scope</b> dialog, select a scope to apply:
 <br><br>
 <img src="https://github.com/spnkrtv/JBTA/blob/main/8-cleanup.png" width="400">
-<br>The cleanup runs using the default inspection profile. If you want to use a custom one, select it from the dropdown list or click Configure to create a new profile.</li>
+<br>The cleanup runs using the default inspection profile. If you want to use a custom one, select it from the dropdown list or click <b>Configure</b> to create a new profile.</li>
 <li>Click <b>Analyze</b> to start the cleanup.</li>
 </ol>
 
