@@ -4,6 +4,13 @@ IIntelliJ IDEA has a set of features for code inspections that helps you find an
 
 Each detected issue gets a [severity level](https://www.jetbrains.com/help/idea/configuring-inspection-severities.html) indicating its significance. IntelliJ IDEA has a set of predefined severity levels, but you can also configure your own by using [inspection profiles](https://www.jetbrains.com/help/idea/customizing-profiles.html).
 
+The process of inspection consists of four sections:
+
+1. [Setting up the inspections](#set-up-inspections)
+2. [Analyzing a file](#analyze-a-file)
+3. [Analyzing a project](#analyze-a-project)
+4. [Cleaning up the code](#code-cleanup)
+
 ## Set up inspections
 <ol>
 <li>Click <b>IntelliJ IDEA</b> in the upper left corner, then go to <b>Preferences</b> or use the <code>⌘,</code> shortcut.</li>
@@ -53,7 +60,7 @@ Running the analysis for the first time in the project takes longer than it will
 
 ## Code cleanup
 
-If you don’t want to fix all detected issues one by one, you can run the Code Cleanup and apply quick fixes to a set of issues.
+If you don’t want to fix all detected issues one by one, you can run the Code Cleanup and apply quick fixes to to all issues at once.
 <ol>
 <li>Click <b>Code</b> on the top menu and select <b>Code Cleanup</b>.</li>
 <li>In the Specify Code Cleanup Scope dialog, select a scope to apply:
